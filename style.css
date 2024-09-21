@@ -1,0 +1,38 @@
+/* style.css */
+
+#stopwatch {
+    text-align: center;
+    margin: 100px;
+    padding: 20px;
+    border: 1px solid #172642;
+    border-radius: 10px;
+    background-color: #172642
+}
+
+#display {
+    font-size: 36px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#buttons {
+    margin-top: 10px;
+}
+
+#lap-times-container {
+    margin-top: 10px;
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lap-times {
+    list-style: decimal inside; /* Ensures numbering inside the container */
+    padding: 0;
+    margin: 0;
+}
+
+#lap-times li {
+    margin-bottom: 5px;
+}
